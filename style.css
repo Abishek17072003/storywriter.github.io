@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+body{
+	background-image: url(images/book.jpg);
+	background-size: 240%;
+	background-color: rgb(0,0,0,0.2);
+}
+body h1{
+	font-size: 600%;
+	margin-top: 20%;
+	text-align: center;
+	color: white;
+	font-family: 'Gochi Hand', cursive;
+}
+
+body h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul{
+	margin-top: 20px;
+	margin-left: 50%;
+	font-size: 30px;
+
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 20%;
+}
+
+body nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: 'MuseoModerno', cursive;
+}
+
+body nav ul li a:hover{
+	text-decoration: none;
+	color: yellow;
+	transition: 0.5s;
+}
+
+body h2{
+	font-size: 200%;
+	margin-top: 2%;
+	text-align: center;
+
+}
+
+body h2 a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	background-color: yellow;
+	font-family: 'Gochi Hand', cursive;
+	border: solid 5px;
+	border-radius: 50px;
+
+}
+
+body h2 a:hover{
+	text-decoration: none;
+	color: yellow;
+	padding: 10px;
+	background-color: black;
+	font-family: 'Gochi Hand', cursive;
+	border: solid 5px yellow;
+	border-radius: 100px;
+
+}
+
+body h3{
+	padding: 0% 50% 5% 50%;
+	background-color: rgba(0,0,0,0.8);
+	margin-top: 10%;
+	margin-left: -1%;
+	margin-right: -1%;	
+}
+
+body h4{
+	width: 30%;
+	text-align: justify;
+	font-size: 400%;
+	color: white;
+	font-family: 'MuseoModerno', cursive;
+	margin-bottom: 1%;
+	margin-left: 2%;
+}
+
+body p{
+	margin: 1% 2% 1% 2%;
+	color: #F2BE22;
+	text-align: justify;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 200%;
+	width: 80%;
+}
+

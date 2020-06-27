@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pangolin&display=swap');
+body h1{
+	text-align: center;
+	margin-top: 50px;
+	background-color: white;
+	color: black;
+	font-size: 300%;
+	font-family: 'Lobster', cursive;
+}
+
+body p{
+	width: 60%;
+	text-align: justify;
+	margin-left: 20%;
+	background-color: white;
+	color: black;
+	font-size: 200%;
+	font-family: 'Pangolin', cursive;
+}
+
+body h2 a{
+	text-decoration: none;
+	color: black;
+	padding: 1.25% 6.2%;
+	background-color: yellow;
+	margin: 0;	
+	border: 3px solid black;
+	font-family: 'Pangolin', cursive;
+	border-radius: 30px;	
+}
+
+body h2 a:hover{
+	text-decoration: none;
+	color: yellow;
+	padding: 1.25% 6.2%;
+	background-color: black;
+	margin: 0;	
+	border: 3px solid yellow;
+	font-family: 'Pangolin', cursive;
+	transition: 0.5s;
+	border-radius: 30px;	
+}
+
+.button{
+	width: 50%;
+	margin-left: 45%;
+}
+
+	
